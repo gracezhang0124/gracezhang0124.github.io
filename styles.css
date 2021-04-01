@@ -124,15 +124,15 @@ p {
 
 #aboutText{
     font-family: 'Lexend', sans-serif;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-top: 10%;
     float:left;
-    width: 30%;
+    width: 40%;
 }
 
 #aboutImg{
     float:right;
-    width:55%;
+    width:50%;
 }
 
 #aboutImg img{
