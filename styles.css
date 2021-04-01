@@ -15,7 +15,6 @@ h1,h2,h3,h4 {
 }
 
 p {
-    font-size: 14;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -59,7 +58,7 @@ p {
 
 #helloPage{
     width:100%;    
-    height: 500px;
+    height: 550px;
     /* background-color:khaki;*/
 }
 
@@ -120,12 +119,12 @@ p {
 
 #about{
     padding:20px;
-    height:500px;
+    height:550px;
 }
 
 #aboutText{
     font-family: 'Lexend', sans-serif;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 10%;
     float:left;
     width: 30%;
