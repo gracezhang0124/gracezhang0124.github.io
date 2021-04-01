@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Indie+Flower&family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+html,body {
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Lexend', sans-serif;
+    color:614421;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+}
+
+.header{
+   /* position: fixed;*/
+    width: 99%;
+    height:120px;
+    /*background-color:DBC04A;
+    outline: 10px solid black;*/
+}
+.header img{
+    float: left;
+    padding-left:100px;
+    width: 80px;
+    height: 80px;
+}
+
+.header h1{
+    color:black;
+    font-family: 'Train One', cursive;
+    text-align: center;
+}
+
+.links{
+    /*need change nav bar
+    position: fixed;
+    left:100px;*/
+    font-size: 1.0rem;
+    text-align: center;
+    color:black;
+    padding-top:30px;
+}
+
+.links a{
+    font-family: 'Lexend', sans-serif;
+    color:614421;
+    text-decoration: none;
+    padding:50px;
+    font-size: 1.2rem;
+}
+
+#helloPage{
+    width:100%;    
+    height: 500px;
+    /* background-color:khaki;*/
+}
+
+#helloImg{
+    float:left;
+    width: 40%;
+    padding-left: 5%;
+}
+
+#helloImg canvas{
+    width: 100%;
+}
+
+#helloPage img{
+    padding:2%;
+    float:left;
+    width: 40%;
+}
+
+
+#intro{
+    width: 40%;
+    float: right;
+    padding-right:10%;
+    padding-top: 90px;
+}
+
+#currentWork{
+    outline: 15px solid #B9C8D6;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#currentWork p{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#currentWork h1{
+    font-family: 'Lexend', sans-serif;
+    color:614421;
+    padding-top:40px;
+}
+
+#img-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#currentWork img{
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 50%;
+}
+
+#about{
+    padding:20px;
+    height:500px;
+}
+
+#aboutText{
+    font-family: 'Lexend', sans-serif;
+    padding-left: 15%;
+    padding-top: 10%;
+    float:left;
+    width: 30%;
+}
+
+#aboutImg{
+    float:right;
+    width:55%;
+}
+
+#aboutImg img{
+    padding-left: 10%;
+    width:500px;
+}
+
+.what-text h4 {
+    font-family: 'Lexend', sans-serif;
+    color:614421;
+}
+
+#line{
+    background-color: #C8C5C2;
+    height: 15px;
+    width: 100%;
+}
+
+#what-container{
+    width: 100%;
+    height: 400px;
+}
+
+#what{
+    padding: 50px;
+    text-align: center;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#what img{
+    height:200px;
+    width: 200px;
+}
+
+.what-text p{
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Indie Flower', cursive;}
+
+#contact{
+    background-color:B9C8D6;
+    text-align: center;
+    height: 450px;
+}
+
+#contact h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+#contact h3{
+    color: white;
+}
+
+#contact p{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#contact img {
+    width: 50px;
+    height: 50px;
+}
+
+input{
+    margin: 20px;
+    width: 20%;
+    height: 20px;
+    border:0;
+    background-color:white; 
+    border-radius: 10px;
+}
+
+button {
+    margin: 20px;
+    width: 20%;
+    height: 20px;
+    background-color:9FAF70; 
+    border:0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+}
+
+
